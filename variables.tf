@@ -1,10 +1,10 @@
 //required variables
-variable "name" {
+variable "kms_keyring_name" {
   description = "The resource name for the KeyRing."
   type        = string
 }
 
-variable "location" {
+variable "location_id" {
   description = "The location for the KeyRing. A full list of valid locations can be found by running gcloud kms locations list."
   type        = string
   default     = "asia-south1"
